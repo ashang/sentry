@@ -17,7 +17,7 @@ const callbackWithArgs = function(callback, ...args) {
 };
 
 
-class SettingsBase extends React.Component {
+class PluginComponentBase extends React.Component {
   constructor(props) {
     super(props);
 
@@ -110,4 +110,4 @@ class SettingsBase extends React.Component {
   }
 }
 
-export default SettingsBase;
+export default PluginComponentBase;

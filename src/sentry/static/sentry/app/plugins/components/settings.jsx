@@ -6,11 +6,11 @@ import {
   FormState,
   GenericField
 } from '../../components/forms';
-import SettingsBase from '../../components/bases/settingsBase';
+import PluginComponentBase from '../../components/bases/pluginComponentBase';
 import LoadingIndicator from '../../components/loadingIndicator';
 
 
-class PluginSettings extends SettingsBase {
+class PluginSettings extends PluginComponentBase {
   constructor(props) {
     super(props);
 
